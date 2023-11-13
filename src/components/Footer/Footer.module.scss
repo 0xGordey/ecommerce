@@ -1,5 +1,34 @@
 .main {
 	width: 100%;
-	height: 460px;
-	background: gray;
+	height: 459px;
+	h1,
+	h2 {
+		color: #ffffff;
+	}
+	hr {
+		width: 100%;
+		border: 1px solid #ffffff;
+	}
+	.top {
+		@apply flex flex-col;
+		gap: 10px;
+		padding-top: 60px;
+		padding-left: 160px;
+		padding-right: 160px;
+		height: 100%;
+		background: var(--black);
+		.left {
+			width: 240px;
+			height: 300px;
+		}
+		.right {
+			width: 510px;
+			height: 300px;
+			background: violet;
+		}
+	}
+	.bottom {
+		@apply flex justify-around items-center flex-row;
+		height: 76px;
+	}
 }

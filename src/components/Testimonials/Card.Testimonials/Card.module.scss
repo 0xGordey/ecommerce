@@ -1,0 +1,29 @@
+.main {
+	@apply flex justify-center items-center flex-col;
+	gap: 22px;
+	width: 350px;
+	height: 295px;
+	background: #ffffff;
+	border-radius: 5px;
+	.top {
+		@apply flex justify-center items-center flex-col;
+		gap: 14px;
+		.avatar {
+			width: 84px;
+			height: 84px;
+			background: palegreen;
+			border-radius: 50%;
+		}
+	}
+	.bottom {
+		@apply flex justify-center items-center flex-col text-center;
+		gap: 6px;
+		width: 300px;
+		h1 {
+			font-size: 22px;
+		}
+		span {
+			color: #7c8087;
+		}
+	}
+}

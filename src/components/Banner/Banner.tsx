@@ -14,7 +14,7 @@ export default function Banner() {
 						your pleasure moments{' '}
 					</p>
 				</div>
-				<Button />
+				<Button props={{ title: 'Discovery our collection' }} />
 			</div>
 		</div>
 	)

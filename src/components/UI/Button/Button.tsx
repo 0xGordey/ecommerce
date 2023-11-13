@@ -1,4 +1,11 @@
 import styles from './Button.module.scss'
-export default function Button() {
-	return <button className={styles.main}>Discovery our collection</button>
+type props = {
+	title: string
+	color?: string
+}
+interface Iprops {
+	props: props
+}
+export default function Button({ props }: Iprops) {
+	return <button className={styles.main}>{props.title}</button>
 }
